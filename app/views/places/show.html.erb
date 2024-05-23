@@ -5,10 +5,11 @@
   <% for entry in @entries %>
     <li>
       
-        <ul> <h3> <%= entry["title"] %> </h3>
+         <h3> <%= entry["title"] %> </h3>
+            <ul>
             <li> <%= entry["posted_on"] %> </li>
             <li> <%= entry["description"] %> </li>
-         </ul>
+            </ul>
     </li>
   <% end %>
 </ul>
